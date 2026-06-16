@@ -1,0 +1,38 @@
+/* EngagementChart.css */
+.engagement-chart {
+  width: 100%;
+}
+.engagement-chart--empty {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+.chart-tooltip {
+  background: var(--bg-card);
+  border: 1px solid var(--border-bright);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  font-size: 0.78rem;
+}
+.chart-tooltip__time {
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  font-size: 0.72rem;
+}
+.chart-tooltip__row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 3px;
+}
+.chart-tooltip__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}

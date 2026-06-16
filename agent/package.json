@@ -1,0 +1,12 @@
+{
+  "name": "engagement-monitor-agent",
+  "version": "1.0.0",
+  "description": "Student Activity Agent - runs on each student PC",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.4"
+  }
+}

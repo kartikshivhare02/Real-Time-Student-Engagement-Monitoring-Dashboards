@@ -1,0 +1,100 @@
+/* AlertPanel.css */
+.alert-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.alert-panel--empty {
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 32px 16px;
+}
+.alert-panel--empty p     { font-size: 0.875rem; font-weight: 600; color: var(--text-secondary); }
+.alert-panel--empty span  { font-size: 0.75rem; }
+.alert-panel__empty-icon  { opacity: 0.4; margin-bottom: 4px; }
+
+.alert-panel__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+.alert-panel__count {
+  background: var(--offtask-dim);
+  color: var(--offtask);
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  margin-left: auto;
+}
+
+.alert-panel__list {
+  overflow-y: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+}
+
+.alert-item {
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  animation: slideIn 0.3s ease both;
+  transition: border-color 0.2s;
+}
+
+.alert-item--idle    { border-color: rgba(245,158,11,0.3); }
+.alert-item--offtask { border-color: rgba(239,68,68,0.3); }
+
+.alert-item__top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+  color: var(--offtask);
+}
+.alert-item--idle .alert-item__top { color: var(--idle); }
+
+.alert-item__top strong { font-size: 0.8rem; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-primary); }
+.alert-item__time { color: var(--text-muted); flex-shrink: 0; }
+
+.alert-item__dismiss {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  transition: color 0.15s, background 0.15s;
+}
+.alert-item__dismiss:hover { color: var(--text-primary); background: rgba(255,255,255,0.08); }
+
+.alert-item__body {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.alert-item__msg {
+  color: var(--text-muted);
+  line-height: 1.4;
+}
