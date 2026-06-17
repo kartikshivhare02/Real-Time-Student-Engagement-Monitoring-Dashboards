@@ -2,6 +2,33 @@
 A real-time student engagement monitoring system that analyzes student interactions and visualizes engagement levels through an interactive dashboard for online and hybrid learning environments.
 # EngageTrack — Real-Time Student Engagement Monitor
 ### College Lab Beta Deployment Guide
+Dashboard Link-https://real-time-student-mon-dashboard.netlify.app/
+
+Problem Statement
+
+In modern learning environments, it is difficult for educators to manually track student engagement effectively. Traditional methods fail to provide real-time insights into student behavior and participation. This project addresses this gap by automating engagement monitoring using data analytics and visualization.
+
+Features
+1.Real-time student engagement tracking
+2.Data preprocessing and cleaning
+3.AI-based classification of engagement levels
+4.Interactive dashboard for visualization
+5.Structured storage of engagement data
+6.Performance trend analysis over time
+
+How It Works
+1.Student activity data is collected from system logs
+2.Data is cleaned and preprocessed for consistency
+3.Engagement level is predicted using a classification approach
+4.Results are stored in the database
+5.Dashboard displays graphs and engagement insights
+<img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/6507cce6-51d8-45e6-bfd2-cb9d752c9d52" />
+
+
+Results
+Students are categorized into engagement levels (High / Medium / Low)
+Visual analytics show participation trends
+Reports help in understanding student behavior patterns
 
 ---
 
