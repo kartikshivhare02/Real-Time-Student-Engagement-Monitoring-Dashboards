@@ -9,6 +9,7 @@ Problem Statement
 In modern learning environments, it is difficult for educators to manually track student engagement effectively. Traditional methods fail to provide real-time insights into student behavior and participation. This project addresses this gap by automating engagement monitoring using data analytics and visualization.
 
 Features
+
 1.Real-time student engagement tracking
 2.Data preprocessing and cleaning
 3.AI-based classification of engagement levels
@@ -17,6 +18,7 @@ Features
 6.Performance trend analysis over time
 
 How It Works
+
 1.Student activity data is collected from system logs
 2.Data is cleaned and preprocessed for consistency
 3.Engagement level is predicted using a classification approach
@@ -26,6 +28,7 @@ How It Works
 
 
 Results
+
 Students are categorized into engagement levels (High / Medium / Low)
 Visual analytics show participation trends
 Reports help in understanding student behavior patterns
