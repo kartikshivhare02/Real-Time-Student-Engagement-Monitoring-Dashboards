@@ -11,18 +11,27 @@ In modern learning environments, it is difficult for educators to manually track
 Features
 
 1.Real-time student engagement tracking
+
 2.Data preprocessing and cleaning
+
 3.AI-based classification of engagement levels
+
 4.Interactive dashboard for visualization
+
 5.Structured storage of engagement data
+
 6.Performance trend analysis over time
 
 How It Works
 
 1.Student activity data is collected from system logs
+
 2.Data is cleaned and preprocessed for consistency
+
 3.Engagement level is predicted using a classification approach
+
 4.Results are stored in the database
+
 5.Dashboard displays graphs and engagement insights
 <img width="1600" height="760" alt="image" src="https://github.com/user-attachments/assets/6507cce6-51d8-45e6-bfd2-cb9d752c9d52" />
 
